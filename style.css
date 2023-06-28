@@ -1,9 +1,93 @@
 .card-body{
     padding: 0 !important;
 }
-.card-title{
-    height: 20px !important ;
-    width: 20px !important ;
 
+.mt-4{
+      color: #657790 !important ;
+      font-family: 'inter';
+      font-weight: 400 !important;
+      font-size: 18px;
+      line-height: 28px;
+    
 }
 
+.card-title {
+    height: 112px !important;
+    width: 315px !important;
+    bottom: 165px;
+}
+.card-title, h5{
+    font-family: 'inter';
+     line-height: 35px;
+     letter-spacing: -1px;
+     font-weight: 600;
+    width: 209px !important;
+    height: 35px !important;
+    font-size: 24px !important;
+   
+}
+.card-textmt-4{
+     bottom: 87px !important;
+}
+.heading48{
+    font-family: 'inter';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 66px;
+    letter-spacing: -2px;
+}
+
+.w-100 {
+    font-family: 'poppins';
+    line-height: 26px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.heading{
+    font-family:'poppins' ;
+    font-size:48px ;
+    font-weight: 700;
+    line-height: 57.6px;
+    letter-spacing: -0.05px;
+    color: #4E4E4E;
+}
+.p-12{
+    font-size: 16px;
+    font-family: 'poppins';
+    font-weight: 400;
+    line-height: 26px;
+    color: #323B5C;
+}
+.box{
+    color:  #000B33;
+     width: 586px;
+     height: 882px;
+}
+.card-titlel{
+    width: 332.39px !important;
+    height: 58px !important;
+    font-weight: 700 !important;
+    font-family: 'poppins' !important;
+    font-size: 48px !important;
+    line-height: 57.6px !important;
+    color:  #4E4E4E !important;
+    letter-spacing: -2.05px !important;
+    
+}
+
+.listProperty{
+    list-style-image: url('./assets/Group\ 554.svg') !important;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 768px) {
+    .listProperty{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 500px) {
+    .listProperty{
+        grid-template-columns: 1fr  ;
+    }
+}
