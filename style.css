@@ -95,3 +95,51 @@
         grid-template-columns: 1fr  ;
     }
 }
+
+
+/* -----creative thinker page starts------- */
+.creativeBox{
+    width: 381px;
+    height: 498px;
+}
+.creativeImg{
+    width: 341px;
+    height:290px;
+}
+.creativeIcon{
+    width: 84.41px;
+    height: 81px;
+}
+.BTN{
+    float: right;
+    border-radius: 100px !important ;
+    width: 109px;
+    height: 44px;
+}
+@media screen and (max-width: 432px) {
+        .creativeBox{
+            width: 327px;
+            height: 498px;
+        }
+        .creativeImg{
+            width: 295px;
+            height: 290px;
+        }
+}
+
+
+
+/* -----creative thinker page ends------- */
+
+/* footer  page start*/
+.footerICON{
+    
+}
+/* footer page end */
+
+
+/* navber  page start*/
+.NAVBER{
+    text-align: center !important ;
+}
+/* navber page end */
