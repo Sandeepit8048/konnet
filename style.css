@@ -41,12 +41,6 @@
     letter-spacing: -2px;
 }
 
-.w-100 {
-    font-family: 'poppins';
-    line-height: 26px;
-    font-size: 20px;
-    font-weight: 600;
-}
 .heading{
     font-family:'poppins' ;
     font-size:48px ;
@@ -127,19 +121,96 @@
         }
 }
 
-
-
 /* -----creative thinker page ends------- */
 
-/* footer  page start*/
-.footerICON{
-    
+/* ----------------------------------------------------navber  page start*/
+.navber{
+   font-family: 'inter';
+   font-size:16px;
+   font-weight: 500;
+   line-height: 24px;
 }
-/* footer page end */
 
-
-/* navber  page start*/
-.NAVBER{
-    text-align: center !important ;
-}
 /* navber page end */
+
+/* our client speaking */
+.clientsspeak{
+    background-color: #F0F4F7;
+     width: 592px;
+     height: 208px; 
+     padding: 32px; 
+     border-radius: 10px;
+}
+.box2{
+    margin-bottom: 200px !important ;
+}   
+ 
+
+/* how we work */
+
+    @media screen and (max-width:432) {
+        .work img{
+            width: 327px; ;
+            height:193.1px ;
+            border-radius: 20px;
+        }
+    }
+    /* how we work page end */
+
+  /*----------------------------------------------------------------- Blog */
+  .blogbox{
+    width: 662px !important;
+    height: 770px !important; 
+    border-radius: 40px !important;
+    border: 2p !important;
+
+  }
+  .card-textI{
+    font-size: 36px !important;
+    font-weight: 600 !important;
+    font-family: 'poppins' !important;
+    line-height: 49px !important;
+  }
+  .card-bodyII{
+     
+  }
+  .cardtextI{
+    font-size: 22px ;
+    line-height: 33px ;
+    font-weight: 700 ;
+    font-family: 'poppine';
+    color: #095DC5;
+    ;
+  }
+  .textcard{
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 39px;
+    font-family: 'poppine';
+
+  }
+ 
+  .cardbox{
+    width: 498px !important;
+    height: 365px !important;
+    border-radius: 30px !important;
+    border: 2px !important;
+    display:flex;
+    flex-direction:column;
+  }
+
+  .cardbox img{
+    width:438px !important;
+    height:210px;
+    border-radius: 16px;
+    border: 2px !important;
+  }
+  .cardbox p{
+    font-size:23px !important;
+    line-height:34px !important;
+    font-weight: 600;
+    font-family: 'poppins' !important;
+
+    
+      
+  }
