@@ -148,7 +148,7 @@
 
 /* how we work */
 
-    @media screen and (max-width:432) {
+    @media screen and (max-width:432px) {
         .work img{
             width: 327px; ;
             height:193.1px ;
@@ -210,7 +210,69 @@
     line-height:34px !important;
     font-weight: 600;
     font-family: 'poppins' !important;
-
-    
       
+  }
+  /* -----------------------------------zero page */
+  .text1{
+    width: 586px !important ;
+    height: 134px !important; 
+    font-size: 16px !important;
+    font-weight: 400;
+    line-height: 32px;
+    font-family: 'inter' !important;
+    color:  #4E4E4E !important;
+   
+
+  }
+  .text{
+    width: 586px !important;
+    height: 144px !important;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -4%;
+    font-family: 'inter';
+    color: #0854B2;
+  }
+  .zeropage{
+
+    width: 1200px !important;
+    height: 144px !important;
+  
+    
+  }
+  .zeropagebox{
+    width: 1440px !important;
+    height: 786px !important;
+    background-color:  #F0F4F7;
+    
+  }
+  .imgbox{
+    position: relative !important;
+    top: 200px !important;
+    width: 1200px !important;
+    height: 655px !important;
+  }
+  @media screen and (max-width:432px) {
+     .imgbox{
+        width: 327px !important ;
+        height: 406px !important;
+        border-radius: 10px !important;
+        /* margin-top: -36226px !important; */
+     }
+     .text{
+        width: 327px !important;
+        height: 80px !important;
+        font-size: 14px !important;
+     }
+     .text1{
+        font-size: 24px !important;
+        width: 327px !important;
+        height: 64px !important;
+     }
+  }
+
+  /* offer servicces */
+  .offersec{
+     margin-top: 482px !important;
   }
