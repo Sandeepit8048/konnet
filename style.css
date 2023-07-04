@@ -131,6 +131,7 @@
    line-height: 24px;
 }
 
+
 /* navber page end */
 
 /* our client speaking */
@@ -275,4 +276,13 @@
   /* offer servicces */
   .offersec{
      margin-top: 482px !important;
+  }
+
+  /* our client  page are start*/
+  .ourclient{
+    font-size: 36px !important;
+    font: 'inter' !important;
+    line-height: 45px !important;
+    font-weight: 700 !important;
+    color:  #4E4E4E;
   }
