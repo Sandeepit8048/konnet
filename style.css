@@ -134,14 +134,25 @@
 
 /* navber page end */
 
-/* our client speaking */
+/*------------------------------------------------------- our client speaking */
 .clientsspeak{
     background-color: #F0F4F7;
-     width: 592px;
-     height: 208px; 
-     padding: 32px; 
-     border-radius: 10px;
-}
+     width: 592px !important ;
+     height: 208px !important; 
+     padding: 32px !important; 
+     border-radius: 10px  !important ;
+     
+   
+  
+    }
+    .slidebox1{
+      width: 1440px !important;
+      height: 644px !important;
+      background: #1C2A33;
+    }
+
+
+
 .box2{
     margin-bottom: 200px !important ;
 }   
@@ -280,9 +291,14 @@
 
   /* our client  page are start*/
   .ourclient{
-    font-size: 36px !important;
+    font-size: 25px !important;
     font: 'inter' !important;
     line-height: 45px !important;
     font-weight: 700 !important;
     color:  #4E4E4E;
+    /* width: 592px !important;
+    height: 208px !important; */
   }
+  /* our client speaking */
+ 
+
