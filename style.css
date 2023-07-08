@@ -164,15 +164,11 @@
       width: 100% !important;
     }
     .clientsspeak{
-      /* top: 100px !important; */
       width: 327px !important;
       height: 270px !important;
      
     }
-    /* .speakboxes{
-      width: 375px !important;
-      height: 672px !important;
-    } */
+  
     .slidebox1 p {
       font-size: 14px !important;
       
@@ -211,13 +207,19 @@
 
   /*----------------------------------------------------------------- Blog */
   .blogbox{
+   
     width: 662px !important;
     height: 770px !important; 
     border-radius: 40px !important;
     border: 2px !important;
 
   }
-
+  .blogmainbox
+{
+  position: relative;
+  top: 20rem;
+  
+}
 
   .card-textI{
     font-size: 36px !important;
@@ -241,10 +243,19 @@
     font-family: 'poppine';
 
   }
+  .imgblogmain {
+    width: 662px !important;
+    height: 770px !important;
+    border-radius: 40px !important;
+     
+  }
+  .blogbox2{
+    margin-left: 1rem;
+  }
  
   .cardbox{
-    width: 498px !important;
-    height: 365px !important;
+    width: 462px !important;
+    height: 368px !important;
     border-radius: 30px !important;
     border: 2px !important;
     display:flex;
@@ -274,7 +285,11 @@
 
     }
     .blogbox2{
-      width: 100% !important ;
+      width: 100% !important;
+      margin-right: 1rem !important;
+    }
+    .imgblogmain{
+      width: 100% !important;
     }
     @media screen and (max-width:700px) {
       .blogFold{
@@ -355,7 +370,7 @@
       display: flex !important;
       flex-direction: column !important;
       height: 407px !important;
-      width: 100vw !important;
+      width: 100% !important;
        right: 36px !important;
      }
      .smimg{
@@ -366,10 +381,17 @@
      .lgimg{
       display: none !important;
      }
-
-   
+     
   }
+  
 
+@media (min-width: 576px){
+
+  .container, .container-sm {
+      max-width: 100% !important;
+  }
+}
+/* zero page end */
  
     
 
@@ -382,11 +404,16 @@
 
   /*-----------------------------------------------------------------------our client  page are start*/
   .ourclient{
+  
     font-size: 25px !important;
     font: 'inter' !important;
     line-height: 45px !important;
     font-weight: 700 !important;
     color:  #4E4E4E;
+  }
+  .touchboxmain{
+    position: relative;
+    top: 20rem;
   }
 /* ------------------------------------------------------Get in touch */
 @media screen  and (max-width:700px){
@@ -412,16 +439,15 @@
       
     }
     .touchbox1{
-      /* margin-bottom: 100px !important; */
-     
       width: 100% !important;
-
     }
 }
+/* End page get in touch */
+
+
+
 
 /*--------------------------------------------------------- AWARDS */
-
-
 
 .awards{
   display: flex;
@@ -580,3 +606,11 @@ input[type=radio] {
   transform: translateY(-80px);
 }
 
+
+/*  end page awerds */
+
+/* footer  */
+.footermain{
+  position: relative;
+  top: 20rem;
+}
