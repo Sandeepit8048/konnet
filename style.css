@@ -77,7 +77,8 @@
 .listProperty{
     list-style-image: url('./assets/Group\ 554.svg') !important;
     display: grid;
-    grid-template-columns:  1fr 1fr 1fr;
+    grid-template-columns:  0.5fr 0.5fr 1fr;
+    /* margin-left: 120px !important;  */
 }
 
 @media screen and (max-width: 768px) {
@@ -97,6 +98,7 @@
     width: 381px;
     height: 498px;
 }
+
 .creativeImg{
     width: 341px;
     height:290px;
@@ -126,7 +128,7 @@
 
 /* ----------------------------------------------------navber  page start*/
 .navber{
-   font-family: 'inter';
+   font-family: 'barlow'!important;
    font-size:16px;
    font-weight: 500;
    line-height: 24px;
@@ -143,8 +145,10 @@
      padding: 32px !important; 
      border-radius: 10px  !important ;
      
-   
-  
+    }
+    .ourclientboxes1{
+      margin-left: 120px !important;
+      margin-right: 120px !important;
     }
     .slidebox1{
       position: relative;
@@ -331,7 +335,7 @@
     
   }
   .zeropagebox{
-    width: 1440px !important;
+    width: 100% !important;
     height: 786px !important;
     background-color:  #F0F4F7;
     
@@ -339,6 +343,7 @@
   .imgbox{
     position: relative !important;
     top: 140px !important;
+
   }
   .smimg{
     display: none !important;
@@ -402,6 +407,9 @@
      margin-top: 240px !important;
   }
 
+  .servicesofferbox{
+    width: 100% !important;
+  }
   /*-----------------------------------------------------------------------our client  page are start*/
   .ourclient{
   
