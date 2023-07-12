@@ -9,7 +9,7 @@
 
 .mt-4{
       color: #657790 !important ;
-      font-family: 'inter';
+      font-family: 'Arial';
       font-weight: 400 !important;
       font-size: 18px;
       line-height: 28px;
@@ -22,7 +22,7 @@
     bottom: 165px;
 }
 .card-title, h5{
-    font-family: 'inter';
+    font-family: 'Arial';
      line-height: 35px;
      letter-spacing: -1px;
      font-weight: 600;
@@ -35,7 +35,7 @@
      bottom: 87px !important;
 }
 .heading48{
-    font-family: 'inter';
+    font-family: 'Arial';
     font-weight: 600;
     font-size: 48px;
     line-height: 66px;
@@ -110,8 +110,9 @@
 .BTN{
     float: right;
     border-radius: 100px !important ;
-    width: 109px;
+    width: 140px;
     height: 44px;
+    background-color:#095DC5 !important ;
 }
 @media screen and (max-width: 432px) {
         .creativeBox{
@@ -129,10 +130,12 @@
 
 /* ----------------------------------------------------navber  page start*/
 .navtext{
-  /* font-family:'inter'!important; */
+  /* font-family:'Arial'!important; */
   font-size:16px;
   font-weight: 500;
    line-height: 24px;
+   width: 1200px !important;
+   height: 90px !important;
 }
 
 /*------------------------------------------------------- our client speaking */
@@ -310,7 +313,7 @@
     font-size: 16px !important;
     font-weight: 400;
     line-height: 32px;
-    font-family: 'inter' !important;
+    font-family: 'Arial' !important;
     color:  #4E4E4E !important;
    
 
@@ -318,11 +321,11 @@
   .text{
     width: 586px !important;
     height: 144px !important;
-    font-size: 48px;
+    font-size: 42px;
     font-weight: 600;
     line-height: 72px;
     letter-spacing: -4%;
-    font-family: 'inter';
+    font-family: 'Arial';
     color: #0854B2;
   }
   .zeropage{
@@ -336,6 +339,8 @@
     width: 100% !important;
     height: 786px !important;
     background-color:  #F0F4F7;
+    /* justify-content: center !important; */
+    align-items: center !important;
     
   }
   .imgbox{
@@ -408,11 +413,16 @@
   .servicesofferbox{
     width: 100% !important;
   }
+  .subheadingservices{
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    line-height: 28px !important;
+  }
   /*-----------------------------------------------------------------------our client  page are start*/
   .ourclient{
   
     font-size: 36px !important;
-    font: 'inter' !important;
+    font: 'Arial' !important;
     line-height: 45px !important;
     font-weight: 700 !important;
     color:  #4E4E4E;
@@ -434,8 +444,8 @@
 
      }
     #formbox{
-      flex-direction: column !important;
-      display: flex;
+      /* flex-direction: column !important; */
+      /* display: flex; */
     }
     .touchform1{
       width: 100% !important ;
