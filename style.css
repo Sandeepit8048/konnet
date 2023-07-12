@@ -89,6 +89,13 @@
 @media screen and (max-width: 500px) {
     .listProperty{
         grid-template-columns: 1fr  ;
+        margin-left: 0 !important;
+    }
+    .frature{
+      padding-left:0px !important ;
+    }
+    .img-fluid{
+      width: 100% !important;
     }
 }
 
@@ -137,7 +144,11 @@
    width: 1200px !important;
    height: 90px !important;
 }
-
+@media screen and (max-width:700px) {
+  .nvbsubheading{
+    display: nonef;
+  }
+}
 /*------------------------------------------------------- our client speaking */
 .clientsspeak{
     background-color: #F0F4F7;
@@ -292,6 +303,7 @@
     .blogbox2{
       width: 100% !important;
       margin-right: 1rem !important;
+      margin-left: 0px !important;
     }
     .imgblogmain{
       width: 100% !important;
@@ -300,11 +312,28 @@
       .blogFold{
         flex-direction: column !important;
       }
+      .head1{
+        width: 432px !important;
+        font-size: 24px !important;
+        font-weight: 600 !important;
+      }
+      .heading48{
+        font-size: 24px !important;
+        font-weight: 600 !important;
+
+      }
       
     }
 
   }
 
+  /*-------------------------------------- About us */
+  @media screen and (max-width:700px) {
+    .subAbout{
+      padding-right: 1.25rem !important;
+      padding-left: 1.25rem !important;
+    }
+  }
 
   /* -------------------------------------------------zero page */
   .text1{
@@ -355,6 +384,8 @@
    .zeropage{
     display: flex;
     flex-direction: column;
+    width: 100% !important;
+    height: 228px !important;
    }
      .zeropagebox{
         width: 100% !important;
@@ -362,9 +393,10 @@
      }
 
       .text p{
-        width: 247px !important;
+        width: 303px !important; 
         font-size: 24px !important;
         line-height: 32px !important;
+        font-weight: 600 !important;
          right: 16px !important;
 
      }
@@ -444,14 +476,15 @@
 
      }
     #formbox{
-      /* flex-direction: column !important; */
-      /* display: flex; */
+      flex-direction: column !important; 
+      display: flex;
     }
     .touchform1{
       width: 100% !important ;
       height: 1200px !important;
       display: flex !important;
       flex-direction: column !important;
+      align-items: center !important;
       
     }
     .touchbox1{
@@ -511,6 +544,11 @@
   }
   .slide{
     width: 100% !important;
+  }
+  .slide img{
+    width:105px !important ;
+    
+    padding: 0.5rem !important;
   }
 }
 /*  end page awerds */
