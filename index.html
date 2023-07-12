@@ -11,16 +11,16 @@
 
          <!------------------------------------------------ Navber -->
      <section>  
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-         <div class="navber container-fluid mx-5">
+        <nav class="nbbox navbar navbar-expand-lg bg-body-tertiary">
+         <div class="navtext container-fluid mx-5">
            <img src="./assets/konnect 1 (2).svg" alt="" class="mx-5" >
            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
              <span class="navbar-toggler-icon"></span>
            </button>
 
-           <div class="container">
+           <div class=" container" >
                <div class="row"> 
-                  <ul class="navbar-nav  justify-content-center text-center ">
+                  <ul class="navbar-nav  justify-content-center text-center">
                     <li class="nav-item">
                       <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
@@ -35,7 +35,7 @@
                        </li>
                   </ul>
                </div>
-           </div> 
+             </div> 
               
                 <button type="button" class="BTN btn btn-primary mx-5 ">Contact.Us</button>
          </div>
@@ -490,7 +490,7 @@
 
     <!-------------------------------------------------------------------------------------- About Us -->
 
-    <section class=" mt-5"> 
+    <section class="w-100 mt-5"> 
             <div class="row" style="margin-left: 120px;" >
                 <div class="col-lg-4 px-3 ">
                         <img src="assets/charles-deluvio--79h5kXs6Mw-unsplash 1.svg" class="img-fluid rounded-start" style="width: 586px; height: 359px; border-radius: 20px;" alt="">
@@ -501,9 +501,9 @@
                           <p class="card-text  ">With an agile approach and outstanding solutions in IT that we customize for our clients, we create an unbeatable, unique experience in technology. Given our years of experience and expertise in niche areas of IT, our partnership is an invaluable asset to organizations who choose to work with us. We truly understand IT! And that is the foundation of how we are driven to deliver the unique experience that our clients usually look for</p>
                           
                  </div>
-            <p class=" d-flex flex-column mt-5 justify-content-between  " style="font-family: 'poppin'; font-size: 20px; line-height: 26px; color: #4E4E4E; font-weight: 600;"  >Features</p>                         
-                                     
-            <ul class="listProperty" style="font-size:16px; color:  #000B33;">
+                    <p class=" d-flex flex-column mt-5 justify-content-between  " style="font-family: 'poppin'; font-size: 20px; line-height: 26px; color: #4E4E4E; font-weight: 600;"  >Features</p>                         
+             </div>                    
+            <ul class="listProperty" style="font-size:16px; color:  #000B33; margin-left: 120px; ">
                 <li>ISO Certified</li>
                 <li>Established In 1992</li>
                 <li>Product Development In Video Analytics</li>
@@ -513,7 +513,8 @@
                 <li>Turn-Key Projects</li>
                 <li>Crisil Rated</li>
             </ul>
-    </section>
+            </div>  
+    </section>  
 
    <!---------------------------------------------------------------- creative thinker -->
    <section class="creativethinker mt-5 " >
@@ -661,35 +662,36 @@
            
 
       <!-- ---------------------------------------AWARDS -->
-    <section>  
-      <div class="awards d-flex flex-column align-items-center px-4">
-
-        <section class="d-flex justify-content-center">
-          <div class="head" style="width: 1200px;">
-            <p class="w-100 d-flex flex-column" style="color: #095DC5;">Achievements</p>
-            <button type="button" class="BTN btn btn-primary" style="width: 10rem;">View Gallery</button>
-            <h1 class="heading48">AWARDS</h1>
-          </div>
-        </section>
-       <div class="contain">
-            <input type="radio" name="slider" id="item-1" checked>
-            <input type="radio" name="slider" id="item-2">
-            <input type="radio" name="slider" id="item-3">
-         <div class="carders">
-             <label class="carder" for="item-1" id="song-1">
-               <img src="./assets/award1.png" alt="song">
-             </label>
-             <label class="carder" for="item-2" id="song-2">
-                <img src="./assets/award2.png" alt="song">
-              </label>
-                   <label class="carder" for="item-3" id="song-3">
-                      <img src="./assets/award2.png" alt="song">
-                   </label>
-           </div>
-      
+    <section>
+          <section class="d-flex justify-content-center mt-5 ">
+        <div class="head" style="width: 1200px;">
+          <p class="w-100 d-flex flex-column" style="color: #095DC5;">Achievements</p>
+          <button type="button" class="BTN btn btn-primary" style="width: 10rem;">View Gallery</button>
+          <h1 class="heading48">AWARDS</h1>
         </div>
-     </div>
-    </section>       
+      </section>
+
+
+         
+     <section class="awardsec " style="margin-left: 145px; " >
+      <span onsubmit="" class="on  " ><img src="./assets/Group 35326 (1).png" alt="" onclick="gonext()"> </span>
+      
+        <div class="slide">
+          <img src="./assets/Cyber-media-award-2016-180x180.svg" alt=""  style="width: 240px; height: 240px;" >
+        </div>
+
+        <div class="slide">
+          <img src="./assets/cropped-180x180.svg" alt=""   style="width: 240px; height: 240px;">
+        </div>
+   
+            <div class="slide">
+              <img src="./assets/PREMIER-100-2015-1-180x180.svg" alt=""   style="width: 240px; height: 240px;">
+            </div>
+
+          <span onsubmit="" class="off  " > <img src="./assets/Group 35326.png" alt=""  onclick="goprev()"></span>
+     </section>
+     
+    </section>
         <!------------------------------------------------------------------------------ our clients speak -->
 
                    <section>
@@ -742,7 +744,7 @@
 
          <!-- -------------------------------------------Blogs -->
 
-       <section class="blogmainbox  mt-5 mx-5  ">
+       <section class="blogmainbox  mt-2 mx-5  ">
           <div class="blogboxs row  justify-content-evenly ">
              
 
@@ -751,7 +753,7 @@
 
              <section>
             <div class="head">
-              <p class="w-100 d-flex " style="color: #095DC5;">Articles</p>
+              <p class="w-100 d-flex " style="color: #095DC5; font-family: 'barlow'; ">Articles</p>
               <button type="button" class="BTN btn btn-primary">View Blogs</button>
               <h1 class="heading48">Latest Blogs</h1>
             </div>
@@ -868,7 +870,7 @@
                 <img src="./assets/konnect 1.svg" alt="">
              </div>
                     <hr class="" style="color:#D1D5DB;">
-             <div class="mx-5">  
+             <div class="mx-4">  
                <div class="">
                   <p class="" style="color: #D1D5DB;">© 2023 Konnet. All rights reserved</p>
                   <div class="d-flex flex-column flex-row-reverse">
@@ -883,6 +885,7 @@
         </section>
 
 
+<!-- <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <script src="main.js"></script>
  
