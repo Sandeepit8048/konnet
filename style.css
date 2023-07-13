@@ -43,7 +43,7 @@
 }
 
 .heading{
-    font-family:'poppins' ;
+    font-family:'Arial';
     font-size:48px ;
     font-weight: 700;
     line-height: 57.6px;
@@ -52,7 +52,7 @@
 }
 .p-12{
     font-size: 16px;
-    font-family: 'poppins';
+    font-family: 'Arial';
     font-weight: 400;
     line-height: 26px;
     color: #323B5C;
@@ -66,7 +66,7 @@
     width: 332.39px !important;
     height: 58px !important;
     font-weight: 700 !important;
-    font-family: 'poppins' !important;
+    font-family: 'Arial' !important;
     font-size: 48px !important;
     line-height: 57.6px !important;
     color:  #4E4E4E !important;
@@ -143,6 +143,10 @@
    line-height: 24px;
    width: 1200px !important;
    height: 90px !important;
+
+}
+.navbar-nav{
+  font-family: Arial, Helvetica, sans-serif;
 }
 @media screen and (max-width:700px) {
   .nvbsubheading{
@@ -234,13 +238,14 @@
 {
   position: relative;
   top: 20rem;
+
   
 }
 
   .card-textI{
     font-size: 36px !important;
     font-weight: 600 !important;
-    font-family: 'poppins' !important;
+    font-family: 'Arial' !important;
     line-height: 49px !important;
   }
 
@@ -288,7 +293,7 @@
     font-size:23px !important;
     line-height:34px !important;
     font-weight: 600;
-    font-family: 'poppins' !important;
+    font-family: 'Arial' !important;
       
   } 
   @media screen and (max-width:700px) {
@@ -590,3 +595,4 @@
     /* margin-right: 200px !important; */
   }
  }
+

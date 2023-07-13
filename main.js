@@ -1,4 +1,5 @@
 let slides = document.querySelectorAll(".slide")
+let about=document.getElementById("about");
 let counter = 0;
 console.log(slides);
 slides.forEach(function (slide, index)
