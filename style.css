@@ -173,19 +173,24 @@
       height: 674px !important;
       background: #1C2A33;
     }
+    .clientbox{
+      justify-content: center;
+      
+    }
 
        
-  @media screen  and (max-width:700px){
+  @media screen and (max-width:700px){
     .clientbox{
-      width: 100% !important;
+      /* width: 100% !important; */
       height: 672px !important;
     }
     .slidebox1{
       width: 100% !important;
     }
     .clientsspeak{
-      width: 327px !important;
+      width: 100% !important;
       height: 270px !important;
+      flex-direction: column !important;
      
     }
   
@@ -201,6 +206,13 @@
     }
     .clinenthead{
       font-size: 24px !important;
+    }
+    .subimgclient{
+      margin-bottom: 0rem !important;
+      position:  relative !important;
+      bottom: 7px !important;
+      right: 45px !important;
+      flex-direction: column !important;
     }
 
 
@@ -253,7 +265,7 @@
     font-size: 22px ;
     line-height: 33px ;
     font-weight: 700 ;
-    font-family: 'poppine';
+    font-family: 'Arial';
     color: #095DC5;
     ;
   }
@@ -261,7 +273,7 @@
     font-size: 26px;
     font-weight: 400;
     line-height: 39px;
-    font-family: 'poppine';
+    font-family: 'Arial';
 
   }
   .imgblogmain {
@@ -467,6 +479,15 @@
   .touchboxmain{
     position: relative;
     top: 20rem;
+  }
+  .clientsspeak{
+    width: 552px !important;
+    height: 222px !important;
+  }
+  .subimgclient{
+    margin-top: 1.9rem !important;
+    margin-left: 176px !important;
+  
   }
 /* ------------------------------------------------------Get in touch */
 @media screen  and (max-width:700px){
