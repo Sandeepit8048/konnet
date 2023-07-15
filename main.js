@@ -26,3 +26,6 @@ function goprev() {
     // alert();
     slideImage(counter)
 }
+
+
+// const myModal = new bootstrap.Modal(document.getElementById('myModal'), options)

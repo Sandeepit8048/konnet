@@ -17,7 +17,7 @@
 }
 
 .card-title {
-    height: 112px !important;
+    height: 72px !important;
     width: 315px !important;
     bottom: 165px;
 }
@@ -26,11 +26,22 @@
      line-height: 35px;
      letter-spacing: -1px;
      font-weight: 600;
-    width: 209px !important;
+    width: 100% !important;
     height: 35px !important;
     font-size: 24px !important;
    
 }
+.card-title2, h6{
+  font-family: 'Arial';
+   line-height: 24px;
+   letter-spacing: -1px;
+   font-weight: 600;
+  width: 100% !important;
+  height: 35px !important;
+  font-size: 24px !important;
+ 
+}
+
 .card-textmt-4{
      bottom: 87px !important;
 }
@@ -249,7 +260,7 @@
   .blogmainbox
 {
   position: relative;
-  top: 20rem;
+  /* top: 20rem; */
 
   
 }
@@ -285,10 +296,13 @@
   .blogbox2{
     margin-left: 1rem;
   }
+  .blogbox2 h6{
+    font-size: 1.3rem !important;
+  }
  
   .cardbox{
-    width: 462px !important;
-    height: 368px !important;
+    width: 266px !important;
+    height: 327px !important;
     border-radius: 30px !important;
     border: 2px !important;
     display:flex;
@@ -296,13 +310,13 @@
   }
 
   .cardbox img{
-    width:438px !important;
-    height:210px;
+    width:230px !important;
+    height:159px;
     border-radius: 16px;
     border: 2px !important;
   }
   .cardbox p{
-    font-size:23px !important;
+    font-size:15px !important;
     line-height:34px !important;
     font-weight: 600;
     font-family: 'Arial' !important;
