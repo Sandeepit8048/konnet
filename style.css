@@ -154,15 +154,15 @@
    line-height: 24px;
    width: 1200px !important;
    height: 90px !important;
-
+  z-index: 0 !important ;
 }
 .navbar-nav{
   font-family: Arial, Helvetica, sans-serif;
 }
 @media screen and (max-width:700px) {
-  .nvbsubheading{
+  /* .nvbsubheading{
     display: none;
-  }
+  } */
 }
 /*------------------------------------------------------- our client speaking */
 .clientsspeak{
@@ -262,7 +262,11 @@
   position: relative;
   /* top: 20rem; */
 
-  
+}
+@media screen and (max-width:700px) {
+  .subblogbox{
+    width: 100% !important;
+  }
 }
 
   .card-textI{
@@ -549,13 +553,15 @@
    position: relative;
 }
 .awardsec{
-  width: 1200px !important;
+  width: 1150px !important;
   justify-content: center;
   justify-content: space-between;
   display: flex;
-  padding: 8rem !important;
+  padding: 3rem !important;
   overflow: hidden !important;
+  
 }
+
 
 .awaerdbox{
   width: 200px !important ;
@@ -570,28 +576,61 @@
   height: 200px !important;
 }
 .on{
+  position: relative !important;
   z-index: 999;
-  margin-top: 80px !important;
+  margin-top: -275px !important;
+  left:-225px !important ;
 }
-.off{
-  z-index: 999;
-  margin-top: 80px !important;
 
+.off {
+  position: relative !important;
+  z-index: 999;
+  margin-top:-280px !important;
+  left: 399px !important;
 }
+
 @media screen and (max-width:700px) {
   .awardsec{
     width: 100% !important;
-    padding:0px !important;
+    padding:0% !important;
     margin-left: -13px !important;
     overflow: hidden;
      margin-right: 1rem !important;
+  
+     height: 100% !important;
+    
   }
+  .on{
+    position: relative !important;
+    z-index: 999;
+    margin-top:0rem !important;
+    left: 6rem !important;
+  }
+  
+  .off {
+    position:relative !important;
+    z-index: 999;
+    margin-top: -3.5rem !important;
+    left: 15rem !important;
+  }
+
   .slide{
-    width: 100% !important;
+    width: 8rem !important;
+
   }
   .slide img{
-    width:85px !important ;  
+    
+    width: 100% !important;
+    height: 100% !important;
+    display: flex !important;
     padding: 0.2rem !important;
+    display: flex !important;
+  }
+  .awardsec{
+    display:flex !important;
+    flex-wrap: wrap;
+    
+   
   }
 }
 /*  end page awerds */
@@ -614,7 +653,6 @@
  font-size: 48px !important;
  font-weight: 800 !important;
  line-height: 43px !important;
- /* font-family: 'Arial' !important; */
  margin-top:12px !important ;
  }
  .subboxes p{
@@ -625,6 +663,12 @@
  }
  .subboxes2 {
   margin: 1rem !important;
+ 
+  
+ }
+ .subboxes2 img{
+  width: 173px !important;
+  height: 100px !important ;
  }
 
  @media screen and (max-width:700px){
@@ -634,3 +678,13 @@
   }
  }
 
+/*-------------------------------------------------- Partner */
+@media screen and (max-width:700px) {
+  .partnerbox{
+    width: 100% !important;
+  }
+  .BTN{
+    width: 118px !important;
+    height: 44px !important;
+  }
+}
