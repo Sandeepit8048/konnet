@@ -598,15 +598,15 @@
 .on{
   position: relative !important;
   z-index: 999;
-  margin-top: -275px !important;
-  left:-225px !important ;
+  margin-top: -524px !important;
+  left:-204px !important ;
 }
 
 .off {
   position: relative !important;
   z-index: 999;
-  margin-top:-280px !important;
-  left: 399px !important;
+  margin-top:-524px !important;
+  left: 384px !important;
 }
 
 @media screen and (max-width:700px) {

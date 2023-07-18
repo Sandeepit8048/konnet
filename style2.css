@@ -524,6 +524,18 @@
     margin-left: 176px !important;
   
   }
+  @media screen and (max-width:700px) {
+   .touchboxmain{
+    width: 100% !important;
+    height: 100% !important;
+    margin-left: 0px !important;
+   }
+   .mapbox1{
+    width: 100% !important;
+   }
+  
+   
+  }
 /* ------------------------------------------------------Get in touch */
 @media screen  and (max-width:700px){
      .touchbox{
