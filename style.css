@@ -502,6 +502,12 @@
     font-weight: 500 !important;
     line-height: 28px !important;
   }
+  @media screen and (max-width:700px) {
+    .subheadingservices p{
+      width: 100% !important;
+      height: 100% !important;
+    }
+  }
   /*-----------------------------------------------------------------------our client  page are start*/
   .ourclient{
   
