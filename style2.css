@@ -311,7 +311,7 @@
  
   .cardbox{
     width: 266px !important;
-    /* height: 327px !important; */
+    height: 327px !important;
     border-radius: 30px !important;
     border: 2px !important;
     display:flex;
@@ -495,7 +495,7 @@
   }
 
   .servicesofferbox{
-    width: 100% !important;
+    /* width: 100% !important; */
   }
   .subheadingservices{
     font-size: 18px !important;
@@ -682,7 +682,7 @@
  }
  .subboxes2 img{
   width: 173px !important;
-  height: 100px !important ;
+  height: 120px !important ;
  }
 
  @media screen and (max-width:700px){
