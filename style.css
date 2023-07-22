@@ -180,20 +180,24 @@
     .slidebox1{
       position: relative;
       top: 10rem;
-      width: 1440px !important;
-      height: 674px !important;
+      width: 1216px !important;
+      /* height: 674px !important; */
+      height: auto !important;
       background: #1C2A33;
+      
     }
     .clientbox{
       justify-content: center;
       
     }
+  
 
        
   @media screen and (max-width:700px){
     .clientbox{
       width: 100% !important;
-      height: 672px !important;
+      /* height: 672px !important; */
+      height: auto !important;
     }
     .slidebox1{
       width: 100% !important;
@@ -213,9 +217,9 @@
     .slidebox1 h5{
       font-size: 18px !important;
     }
-    #clientspeak1{
+    /* #clientspeak1{
       display: none;
-    }
+    } */
     .clinenthead{
       font-size: 24px !important;
     }
@@ -225,10 +229,14 @@
       bottom: 27px !important;
       right: 45px !important;
     }
-
+   
 
   }
-
+@media screen and (max-width:1200px) {
+  #clientspeak1{
+    margin-top: 8rem !important;
+  }
+}
 
 
 
