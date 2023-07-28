@@ -121,10 +121,6 @@
     width: 341px;
     height:290px;
 }
-.creativeImg1{
-  width: 277px !important;
-  height: auto !important;
-}
 .creativeIcon{
     width: 84.41px;
     height: 81px;
@@ -184,24 +180,20 @@
     .slidebox1{
       position: relative;
       top: 10rem;
-      width: 1216px !important;
-      /* height: 674px !important; */
-      height: auto !important;
+      width: 1440px !important;
+      height: 674px !important;
       background: #1C2A33;
-      
     }
     .clientbox{
       justify-content: center;
       
     }
-  
 
        
   @media screen and (max-width:700px){
     .clientbox{
       width: 100% !important;
-      /* height: 672px !important; */
-      height: auto !important;
+      height: 672px !important;
     }
     .slidebox1{
       width: 100% !important;
@@ -221,9 +213,9 @@
     .slidebox1 h5{
       font-size: 18px !important;
     }
-    /* #clientspeak1{
+    #clientspeak1{
       display: none;
-    } */
+    }
     .clinenthead{
       font-size: 24px !important;
     }
@@ -233,14 +225,10 @@
       bottom: 27px !important;
       right: 45px !important;
     }
-   
+
 
   }
-@media screen and (max-width:1200px) {
-  #clientspeak1{
-    margin-top: 8rem !important;
-  }
-}
+
 
 
 
@@ -323,7 +311,7 @@
  
   .cardbox{
     width: 266px !important;
-    /* height: 327px !important; */
+    height: 327px !important;
     border-radius: 30px !important;
     border: 2px !important;
     display:flex;
@@ -507,18 +495,12 @@
   }
 
   .servicesofferbox{
-    width: 100% !important;
+    /* width: 100% !important; */
   }
   .subheadingservices{
     font-size: 18px !important;
     font-weight: 500 !important;
     line-height: 28px !important;
-  }
-  @media screen and (max-width:700px) {
-    .subheadingservices p{
-      width: 100% !important;
-      height: 100% !important;
-    }
   }
   /*-----------------------------------------------------------------------our client  page are start*/
   .ourclient{
@@ -533,6 +515,10 @@
     position: relative;
     top: 20rem;
   }
+  .touchboxmain2{
+    position: relative;
+    top: 20rem;
+  }
   .clientsspeak{
     width: 552px !important;
     height: 222px !important;
@@ -542,6 +528,30 @@
     margin-left: 176px !important;
   
   }
+  @media screen and (max-width:700px) {
+   .touchboxmain{
+    width: 100% !important;
+    height: 100% !important;
+    margin-left: 0px !important;
+   }
+   .mapbox1{
+    width: 100% !important;
+   }
+  
+   
+  }
+  @media screen and (max-width:700px) {
+    .touchboxmain2{
+     width: 100% !important;
+     height: 100% !important;
+     margin-left: 0px !important;
+    }
+    .mapbox1{
+     width: 100% !important;
+    }
+   
+    
+   }
 /* ------------------------------------------------------Get in touch */
 @media screen  and (max-width:700px){
      .touchbox{
@@ -610,15 +620,15 @@
 .on{
   position: relative !important;
   z-index: 999;
-  margin-top: -524px !important;
-  left:-204px !important ;
+  margin-top: -275px !important;
+  left:-225px !important ;
 }
 
 .off {
   position: relative !important;
   z-index: 999;
-  margin-top:-524px !important;
-  left: 384px !important;
+  margin-top:-280px !important;
+  left: 399px !important;
 }
 
 @media screen and (max-width:700px) {
@@ -678,12 +688,12 @@
  .boxes1{
   width: 346px!important;
   background: #F4F4F4;
-  margin-top: 120px !important ;
-  padding:30px 25rem !important;
+  margin-top: 140px !important ;
+  padding:40px 26rem !important;
  }
  .subboxes h4 {
- font-size: 48px !important;
- font-weight: 800 !important;
+ font-size: 44px !important;
+ font-weight: 700 !important;
  line-height: 43px !important;
  margin-top:12px !important ;
  }
@@ -700,7 +710,7 @@
  }
  .subboxes2 img{
   width: 173px !important;
-  height: 100px !important ;
+  height: 120px !important ;
  }
 
  @media screen and (max-width:700px){
@@ -720,3 +730,18 @@
     height: 44px !important;
   }
 }
+
+
+
+.home-testimonial{background-color: #1C2A33;height: 450px; width: 1440px !important; align-items: center; align-self: center;   margin-top: 300px !important;}
+
+.home-testimonial-bottom{background-color: #f8f8f8;transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin-top: 20px;margin-bottom: 0px;position: relative;height: 200px;top: 190px}
+.home-testimonial h3{color: var(--orange);font-size: 14px;font-weight: 500;text-transform: uppercase}
+.home-testimonial h2{color: white;font-size: 48px;font-weight: 700}
+.testimonial-inner{position: relative;top: -174px}
+.testimonial-pos{position: relative;top: 24px}
+.testimonial-inner .tour-desc{border-radius: 5px;padding: 40px}
+.color-grey-3{font-family: "Arial", Sans-serif;font-size: 14px;color: #6c83a2}
+.testimonial-inner img.tm-people{width: 60px;height: 60px;-webkit-border-radius: 50%;border-radius: 50%;-o-object-fit: cover;object-fit: cover;max-width: none}
+.link-name{font-family: "Arial";font-size: 16px;color: #405064; font-weight: 700; margin-top: 10px;}
+.link-position{font-family: "Arial";font-size: 14px;color: #6c83a2}
