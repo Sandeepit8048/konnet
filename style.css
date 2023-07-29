@@ -236,6 +236,14 @@
    
 
   }
+  @media screen and (max-width:380px){
+    .subimgclient{
+      margin-bottom: -3rem !important;
+      position:  relative !important;
+      bottom: 69px !important;
+      right: 45px !important;
+    }
+  }
 @media screen and (max-width:1200px) {
   #clientspeak1{
     margin-top: 8rem !important;
@@ -474,11 +482,12 @@
       flex-direction: column !important;
       height: 407px !important;
       width: 100% !important;
-       right: 36px !important;
+       /* right: 36px !important; */
      }
      .smimg{
       display: block !important;
-      width: 100% !important;
+      width: 90% !important;
+      margin: auto ;
       height: 406px !important;
       margin-bottom: 254px !important ;
      }
